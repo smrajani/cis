@@ -84,4 +84,9 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell do |sh|
     sh.path = "#{synced_folder}/install_mysql.sh"
   end
+
+  config.vm.provision :shell do |sh|
+    sh.path = "#{synced_folder}/import_mysql_data.sh"
+  end
+
 end
