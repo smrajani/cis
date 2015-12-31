@@ -4,4 +4,5 @@
 sudo apt-get update
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password 1234'
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password 1234'
-sudo apt-get -y install mysql-server unzip zip
+sudo apt-get -y install mysql-server
+sudo apt-get -y install git unzip zip

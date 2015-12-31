@@ -13,6 +13,6 @@ mysql -u root --password=1234 < sakila-schema.sql
 mysql -u root --password=1234 < sakila-data.sql
 cd
 
-unzip menagerie-db.zip
-cd menagerie-db
-cd
+#unzip menagerie-db.zip
+#cd menagerie-db
+#cd
